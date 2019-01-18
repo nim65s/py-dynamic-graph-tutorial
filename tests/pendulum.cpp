@@ -1,6 +1,6 @@
 #include <boost/test/unit_test.hpp>
 
-#include "dynamic-graph/tutorial/inverted-pendulum.hh"
+#include "dynamic-graph/tutorial/inverted-pendulum.hpp"
 
 BOOST_AUTO_TEST_SUITE ( BOOST_TEST_MODULE )
 

@@ -1,11 +1,12 @@
 /*
- *  Copyright 2010 CNRS
+ *  Copyright 2010, 2019 CNRS
  *
  *  Florent Lamiraux
+ *  Guilhem Saurel
  */
 
-#ifndef DG_TUTORIAL_CONSTANT_HH
-#define DG_TUTORIAL_CONSTANT_HH
+#ifndef PY_DG_TUTORIAL_CONSTANT_HH
+#define PY_DG_TUTORIAL_CONSTANT_HH
 
 namespace dynamicgraph {
   namespace tutorial {

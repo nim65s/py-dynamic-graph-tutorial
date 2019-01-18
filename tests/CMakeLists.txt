@@ -4,6 +4,8 @@ ADD_UNIT_TEST(pendulum pendulum)
 TARGET_LINK_LIBRARIES(pendulum ${PROJECT_NAME} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY})
 PKG_CONFIG_USE_DEPENDENCY(pendulum dynamic-graph)
 
-ADD_UNIT_TEST(controller controller)
-TARGET_LINK_LIBRARIES(controller ${PROJECT_NAME} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY})
-PKG_CONFIG_USE_DEPENDENCY(controller dynamic-graph)
+#ADD_UNIT_TEST(controller controller)
+#TARGET_LINK_LIBRARIES(controller ${PROJECT_NAME} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY})
+#PKG_CONFIG_USE_DEPENDENCY(controller dynamic-graph)
+
+ADD_PYTHON_UNIT_TEST("py-pendulum" "tests/test_pendulum.py" "bindings/python")
